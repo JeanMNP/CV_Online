@@ -1,16 +1,55 @@
-# React + Vite
+# 📄 Meu CV Online
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de **Currículo Online** desenvolvido em **React.js** com **Vite**, publicado no GitHub Pages.  
+O objetivo é apresentar minhas informações profissionais, formação, projetos e habilidades de forma interativa e acessível.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tecnologias Utilizadas
 
-## React Compiler
+- **React.js** (biblioteca principal)
+- **Vite** (ferramenta de build e desenvolvimento)
+- **React Icons** (ícones de contato e redes sociais)
+- **CSS** (estilização personalizada)
+- **gh-pages** (deploy para GitHub Pages)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📂 Estrutura do Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `App.jsx` → Componente principal que organiza as seções (Sobre, Formação, Projetos, Tecnologias, Competências e Idiomas).
+- `Banner.jsx` → Componente reutilizável para exibir projetos com imagem, título e descrição.
+- `App.css` → Estilos globais da aplicação.
+- `Banner.css` → Estilos específicos para o componente Banner.
+- `public/img` → Imagens utilizadas nos projetos.
+
+---
+
+## 🖼️ Funcionalidades
+
+- Exibição de informações pessoais e profissionais.
+- Links diretos para **Email**, **LinkedIn** e **GitHub**.
+- Seção de **Formação Acadêmica**.
+- Seção de **Projetos/Experiências** com imagens e descrições.
+- Listagem de **Tecnologias**, **Competências** e **Idiomas**.
+
+---
+
+## 📦 Instalação e Uso
+
+Clone o repositório:
+git clone https://github.com/JeanMNP/CV_Online.git
+cd CV_Online
+
+Instale as dependências:
+
+npm install
+
+Execute em modo desenvolvimento:
+npm run dev
+
+Build para produção:
+npm run build
+
+Visualizar build localmente:
+npm run preview
