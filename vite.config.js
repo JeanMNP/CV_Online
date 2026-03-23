@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/CV_Online/',   // 👈 igual ao nome do repo
+  base: '/CV_Online/',
 })
