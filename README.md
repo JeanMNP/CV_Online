@@ -41,18 +41,15 @@ public/
 
 🚀 Como executar o projeto
 Clone este repositório:
-bash
-git clone https://github.com/JeanMNP/seu-repositorio.git
+git clone: https://github.com/JeanMNP/CV_Online.git
+
 Acesse a pasta do projeto:
-
-bash
 cd seu-repositorio
+
 Instale as dependências:
-
-bash
 npm install
-Execute o projeto:
 
-bash
+Execute o projeto:
 npm run dev
+
 O site estará disponível em http://localhost:5173/
