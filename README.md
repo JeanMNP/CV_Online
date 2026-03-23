@@ -1,55 +1,16 @@
-🌐 Portfólio - Jean Marcelo Nogueira Paes Leme
-Este projeto é um site portfólio pessoal desenvolvido em React.js, com o objetivo de apresentar minha formação, experiências, projetos e habilidades como desenvolvedor backend, frontend e estudante de Engenharia da Computação.
+# React + Vite
 
-📋 Funcionalidades
-Exibição de informações pessoais e contatos (LinkedIn, GitHub, Email).
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Seções organizadas:
+Currently, two official plugins are available:
 
-Sobre mim
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Formação
+## React Compiler
 
-Experiências / Projetos
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Tecnologias e Competências
+## Expanding the ESLint configuration
 
-Idiomas
-
-Componente Banner reutilizável para destacar projetos com imagem, título e descrição.
-
-🛠️ Tecnologias utilizadas
-React.js
-
-JavaScript / TypeScript
-
-HTML5 / CSS3
-
-React Icons
-
-Node.js (para ambiente de desenvolvimento)
-
-src/
- ├── App.jsx           # Componente principal
- ├── App.css           # Estilos globais
- ├── components/
- │    ├── Banner.jsx   # Componente para exibir projetos
- │    └── Banner.css   # Estilos específicos do componente Banner
- ├── index.js          # Ponto de entrada da aplicação
-public/
- └── img/              # Imagens dos projetos
-
-🚀 Como executar o projeto
-Clone este repositório:
-git clone: https://github.com/JeanMNP/CV_Online.git
-
-Acesse a pasta do projeto:
-cd seu-repositorio
-
-Instale as dependências:
-npm install
-
-Execute o projeto:
-npm run dev
-
-O site estará disponível em http://localhost:5173/
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
