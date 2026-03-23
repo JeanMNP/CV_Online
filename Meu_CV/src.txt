@@ -1,9 +1,0 @@
-src/
- ├── App.jsx           # Componente principal
- ├── App.css           # Estilos globais
- ├── components/
- │    ├── Banner.jsx   # Componente para exibir projetos
- │    └── Banner.css   # Estilos específicos do componente Banner
- ├── index.js          # Ponto de entrada da aplicação
-public/
- └── img/              # Imagens dos projetos
